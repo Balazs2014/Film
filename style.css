@@ -12,3 +12,7 @@ label {
     color: pink;
     font-weight: bold;
 }
+
+table > tr > td, th {
+    width: 33%;
+}
