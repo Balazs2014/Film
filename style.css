@@ -1,0 +1,14 @@
+
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: pink;
+    color: white;
+}
+
+.btn-light {
+    font-weight: bold;
+}
+
+label {
+    color: pink;
+    font-weight: bold;
+}
