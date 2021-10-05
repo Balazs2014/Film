@@ -14,5 +14,5 @@ label {
 }
 
 table > tr > td, th {
-    width: 33%;
+    width: 33vw;
 }

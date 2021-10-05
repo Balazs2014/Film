@@ -28,7 +28,7 @@ function listaFeltolt() {
 
 function filmekKilistazas() {
     if (lista.length !== 0) {
-        let s = "<table class='table text-center table-striped'><tr><th>Név</th><th>Rendező</th><th>Kiadási év</th></tr>";
+        let s = "<table class='table text-center table-striped table-bordered'><tr><th>Név</th><th>Rendező</th><th>Kiadási év</th></tr>";
         for (let i = 0; i < lista.length; i++) {
             s += "<tr><td>" + lista[i].nev + "</td><td>" + lista[i].rendezo + "</td><td>" + lista[i].kiadas_eve + "</td></tr>";
         }
